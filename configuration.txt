@@ -1,0 +1,37 @@
++ExternalMidiReceiver keyboardIn Keyboard
++ExternalMidiReceiver launchIn Control
++ExternalMidiTransmitter launchOut Control
+
++DigitalKeyboard keyboard
++Harmonizer harmonizer
++Oscillator synthesizer
++Delay delay
++MyEffector effector
+
++LaunchControl launch
+
++PianoRoll drumPattern
++Sampler drums
+
++Mixer mixer
++Limiter limiter
++ExternalAudioTransmitter speakers
+
+
+-launchIn m launch
+-launch m launchOut
+-launch c 2 synthesizer
+
+-keyboardIn m keyboard
+-keyboard c harmonizer
+-harmonizer c synthesizer
+-synthesizer a delay
+-delay a effector
+
+-drumPattern c drums
+
+
+-effector a mixer
+-sampler a 2 mixer
+-mixer a limiter
+-limiter a speakers
